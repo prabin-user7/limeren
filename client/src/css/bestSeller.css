@@ -1,0 +1,237 @@
+/*  ------font imports------ */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rock+3D&family=Special+Elite&display=swap');
+/*-------color variables-------------*/
+
+:root {
+    --green: 	rgb(34,139,34);
+    --yellow: 	#B37E02;
+    --dark:rgba(0,0,0,0.5);
+  }
+
+  /* -----------------font variables-------------------*/
+:root{
+    --Raleway : 'Raleway', sans-serif;
+    --rock :'Rock 3D', cursive;
+    --Elite : 'Special Elite', cursive;
+}
+
+.Book{
+    height: 200px;
+    width:200px;
+    background: var(--dark);
+    margin: 2px;
+    cursor: pointer;
+   
+}
+
+.Book.first{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/to-kill-a-mocking-bird-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:160px;
+    width:110px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.Book.second{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/The-greatest-Gatsby-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:155px;
+    width:105px;
+    top:40%;
+    left:66%;
+    transform: translate(-50%,-50%);
+}
+.Book.third{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Ulysses-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:150px;
+    width:100px;
+    top:18.1%;
+    left:50.5%;
+    transform: translate(-50%,-50%);}
+.Book.fourth{
+    background-image:url('https://www.scientific-editing.info/wp-content/uploads/2021/03/The-catcher-in-the-rye-233x300.jpg') ;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:135px;
+    width:85px;
+    top:37.5%;
+    left:35.45%;
+    transform: translate(-50%,-50%);
+}   
+.Book.fifth{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/pride-and-prejudice-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:130px;
+    width:80px;
+    top:69.5%;
+    left:64.35%;
+    transform: translate(-50%,-50%);
+}
+.Book.sixth{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Adventures-of-Huckleberry-Finn-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:125px;
+    width:75px;
+    top:79.5%;
+    left:52.5%;
+    transform: translate(-50%,-50%);}
+.Book.seventh{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Alices-Adventures-in-Wonderland-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:120px;
+    width:70px;
+    top:64%;
+    left:34.5%;
+    transform: translate(-50%,-50%);
+}
+
+
+.Book.eighth{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/To-the-Lighthouse-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:115px;
+    width:65px;
+    top:43.5%;
+    left:79%;
+    transform: translate(-50%,-50%);
+
+}
+.Book.ninth{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Slide9-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:110px;
+    width:60px;
+    top:11.2%;
+    left:63.5%;
+    transform: translate(-50%,-50%);
+
+}
+.Book.tenth{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Slide10-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:105px;
+    width:55px;
+    top:67%;
+    left:74.8%;
+    transform: translate(-50%,-50%);
+
+}
+.Book.eleventh{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Great-Expectations-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:100px;
+    width:50px;
+    top:13%;
+    left:38.5%;
+    transform: translate(-50%,-50%);
+}
+.Book.twelfth{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Slide12-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:95px;
+    width:45px;
+    top:35.6%;
+    left:25.5%;
+    transform: translate(-50%,-50%);
+}
+.Book.thirteenth{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Slide13-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:90px;
+    width:40px;
+    top:22%;
+    left:77.3%;
+    transform: translate(-50%,-50%);
+}
+.Book.fourteenth{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Slide14-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:85px;
+    width:35px;
+    top:55%;
+    left:26%;
+    transform: translate(-50%,-50%);
+}
+.Book.fifteenth{
+    background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Slide15-233x300.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height:80px;
+    width:30px;
+    top:76.5%;
+    left:44.4%;
+    transform: translate(-50%,-50%);
+}
+
+.sheet{
+   position: relative;
+   height: 500px;
+   width: 700px;
+}
+.title{
+    text-align: center;
+    font-family: var(--Elite);
+    color: var(--dark);
+} 
+.Explore{
+    font-size: 14px;
+    border:none;
+    background: var(--green);
+    color: #fff;
+    padding:4px 35px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.Explore:hover{
+    background: none;
+    border: 1.5px solid var(--dark);
+    color: var(--dark);
+}
+.contain{
+    position: relative;
+    height: max-content;
+    display: flex;
+    height: 500px;
+    width: 900px;
+    justify-content: flex-end;
+    align-items:center;
+    font-size: 15px;
+}
+
+.bestSeller{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}

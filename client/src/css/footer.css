@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+/*  ------font imports------ */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rock+3D&family=Special+Elite&display=swap');
+/*-------color variables-------------*/
+
+:root {
+    --green: 	rgb(34,139,34);
+    --yellow: 	#B37E02;
+    --dark:rgba(0,0,0,0.5);
+  }
+
+  /* -----------------font variables-------------------*/
+:root{
+    --Raleway : 'Raleway', sans-serif;
+    --rock :'Rock 3D', cursive;
+    --Elite : 'Special Elite', cursive;
+}
+.Container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family:var(--Elite);
+    color: var(--dark);
+    text-align: center;
+    background: rgba(0,0,0,0.02);
+}
+.Intro,.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+
+}
+.Header,.Header1{
+    font-size: 16px;
+    font-family: var(--Elite);
+    color: var(--dark);
+    color: rgba(0, 0, 0,0.75);
+   
+  
+}
+.Header1{
+    font-size: 22px;
+    color: var(--yellow);
+    
+   
+}
+.Header1 span{
+    color: rgb(165, 165, 165);
+}
+.Header.logo{
+    font-size: 20px;
+}
+.message{
+    font-size: 14px;
+    color: rgba(0, 0, 0,0.65);
+}
+.terms{
+    font-size: 14px;
+    margin: 2px;
+    color: rgba(0, 0, 0,0.65);
+
+}
+.terms.policy{
+    font-size: 12px;
+}
+.ref{
+    font-size: 18px;
+    line-height: 0;
+    padding: 6px;
+    margin: 2px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 80%;
+}
+.ref:nth-child(1):hover{
+   color:#fff;
+   background:#e1306c;
+   border-radius: 50%;
+}
+.ref:nth-child(2):hover{
+    color:#fff;
+    background:#1da1f2;
+    border-radius: 50%;
+}
+.ref:nth-child(3):hover{
+    color:#fff;
+    background:#4267b2;
+    border-radius: 50%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box1{
+    font-size: 14px;
+    margin: 0;
+    padding:0;
+    color: rgba(0, 0, 0,0.65);
+}
+.box{
+    border: none;
+    height: 20px;
+    font-size: 14px;
+    background: none;
+    border-bottom: 1.5px solid var(--dark);
+    outline: none;
+    margin:5px;
+    
+}
+.box:hover{
+    background: #fff;
+}
+.signUp{
+    background: rgba(34,139,34,0.8);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 20px;
+}
+.signUp:hover{
+    border:1.5px solid var(--dark);
+    background: none;
+    color: var(--dark);
+}
+.explore{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.Home,.Categories,.Books,.Authors{
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.15s ease-in;
+}
+.Home:hover,.Categories:hover,.Books:hover,.Authors:hover{    color: var(--green);
+    border-bottom:1.5px solid var(--green) ;
+  
+}
+.terms.contacts{
+   padding-bottom: 5px;
+   display: flex;
+   font-size: 25px;
+}

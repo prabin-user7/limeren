@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from "./logo.svg";
+import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation';
+import './css/nav.css';
+import WebFont from 'webfontloader';
+import {useEffect} from 'react';
+import Footer  from './components/Footer';
+import { BestSeller } from './components/BestSeller';
+import { Prev } from 'react-bootstrap/esm/PageItem';
+import { Preloader } from './components/Preloader';
 
 function App() {
-  const [data, setData] = React.useState(null)
-   
-  React.useEffect(()=>{
-    fetch("/api")
-    .then((res) => res.json())
-    .then((data) => setData(data.message))
-  },[])
-
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: ['Sans-serif', 'Raleway']
+      }
+    });
+   }, []);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         {!data ? "loading . . ." : data}
-          </p>
-      
-      </header>
+    <div>  
+      {/* <Preloader /> */}
+    <Navigation />
+    <BestSeller />
+    <Footer />
     </div>
+ 
   );
 }
 
