@@ -29,8 +29,8 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:160px;
-    width:110px;
+    height:200px;
+    width:150px;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -40,10 +40,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:155px;
-    width:105px;
+    height:195px;
+    width:145px;
     top:40%;
-    left:66%;
+    left:67%;
     transform: translate(-50%,-50%);
 }
 .Book.third{
@@ -51,9 +51,9 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:150px;
-    width:100px;
-    top:18.1%;
+    height:190px;
+    width:140px;
+    top:20.1%;
     left:50.5%;
     transform: translate(-50%,-50%);}
 .Book.fourth{
@@ -61,10 +61,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:135px;
-    width:85px;
+    height:185px;
+    width:135px;
     top:37.5%;
-    left:35.45%;
+    left:33.45%;
     transform: translate(-50%,-50%);
 }   
 .Book.fifth{
@@ -72,10 +72,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:130px;
-    width:80px;
+    height:180px;
+    width:130px;
     top:69.5%;
-    left:64.35%;
+    left:66.35%;
     transform: translate(-50%,-50%);
 }
 .Book.sixth{
@@ -83,20 +83,20 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:125px;
-    width:75px;
-    top:79.5%;
-    left:52.5%;
+    height:175px;
+    width:125px;
+    top:66%;
+    left:23.5%;
     transform: translate(-50%,-50%);}
 .Book.seventh{
     background-image: url('https://www.scientific-editing.info/wp-content/uploads/2021/03/Alices-Adventures-in-Wonderland-233x300.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:120px;
-    width:70px;
-    top:64%;
-    left:34.5%;
+    height:170px;
+    width:120px;
+    top:78%;
+    left:48.5%;
     transform: translate(-50%,-50%);
 }
 
@@ -106,10 +106,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:115px;
-    width:65px;
+    height:165px;
+    width:115px;
     top:43.5%;
-    left:79%;
+    left:82.5%;
     transform: translate(-50%,-50%);
 
 }
@@ -118,10 +118,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:110px;
-    width:60px;
-    top:11.2%;
-    left:63.5%;
+    height:160px;
+    width:110px;
+    top:12.5%;
+    left:68.5%;
     transform: translate(-50%,-50%);
 
 }
@@ -130,10 +130,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:105px;
-    width:55px;
-    top:67%;
-    left:74.8%;
+    height:155px;
+    width:105px;
+    top:20%;
+    left:82.5%;
     transform: translate(-50%,-50%);
 
 }
@@ -142,10 +142,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:100px;
-    width:50px;
-    top:13%;
-    left:38.5%;
+    height:150px;
+    width:100px;
+    top:12.5%;
+    left:35.5%;
     transform: translate(-50%,-50%);
 }
 .Book.twelfth{
@@ -153,10 +153,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:95px;
-    width:45px;
+    height:145px;
+    width:95px;
     top:35.6%;
-    left:25.5%;
+    left:19.5%;
     transform: translate(-50%,-50%);
 }
 .Book.thirteenth{
@@ -164,10 +164,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:90px;
-    width:40px;
-    top:22%;
-    left:77.3%;
+    height:140px;
+    width:90px;
+    top:68.5%;
+    left:91%;
     transform: translate(-50%,-50%);
 }
 .Book.fourteenth{
@@ -175,10 +175,10 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:85px;
-    width:35px;
-    top:55%;
-    left:26%;
+    height:135px;
+    width:85px;
+    top: 66%;
+    left:80%;
     transform: translate(-50%,-50%);
 }
 .Book.fifteenth{
@@ -186,17 +186,17 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    height:80px;
-    width:30px;
-    top:76.5%;
-    left:44.4%;
+    height:130px;
+    width:80px;
+    top:62%;
+    left:36%;
     transform: translate(-50%,-50%);
 }
 
 .sheet{
    position: relative;
-   height: 500px;
-   width: 700px;
+   height: 700px;
+   width: 900px;
 }
 .title{
     text-align: center;
@@ -204,13 +204,13 @@
     color: var(--dark);
 } 
 .Explore{
-    font-size: 14px;
     border:none;
     background: var(--green);
     color: #fff;
-    padding:4px 35px;
+    padding:10px 50px;
     border-radius: 5px;
     transition: 0.3s ease-in-out;
+    
 }
 .Explore:hover{
     background: none;
@@ -221,9 +221,9 @@
     position: relative;
     height: max-content;
     display: flex;
-    height: 500px;
-    width: 900px;
-    justify-content: flex-end;
+    height:100vh;
+    width: 100%;
+    justify-content: space-evenly;
     align-items:center;
     font-size: 15px;
 }

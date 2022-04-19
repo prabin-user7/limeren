@@ -7,8 +7,8 @@ export function BestSeller(){
         <section className='bestSeller'>
             <div className='contain'>
                 <div className='title'>
-                    <p className='info_best'>Read and listen<br/> to more than millions<br/>of book online</p><br/>
-                    <button className='Explore'>Explore</button>
+                    <h5 className='phrase'>Read and listen<br/> to more than millions<br/>of book online</h5><br/>
+                    <button className='Explore'><h5>Explore</h5></button>
                     </div>
             <div className='sheet'>
         <div className='Book first'></div>
