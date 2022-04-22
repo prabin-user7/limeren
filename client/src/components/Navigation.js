@@ -18,13 +18,13 @@ return(
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="#action2">Categories</Nav.Link>
+          <Nav.Link href="home">Home</Nav.Link>
+          <Nav.Link href="genre">Genre</Nav.Link>
          
-          <Nav.Link href="#action3" >
+          <Nav.Link href="books" >
             Books
           </Nav.Link>
-          <Nav.Link href="#" >
+          <Nav.Link href="authors" >
            Authors
           </Nav.Link>
         </Nav>
